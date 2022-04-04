@@ -6,5 +6,6 @@ def Hello(u):
 
 #input here from user
 # here I add strip to remove white spaces before and after the input string
-name = input('Hi, what is your name? ').strip()
+#capitlize so first letter will be a capital letter
+name = input('Hi, what is your name? ').capitalize().strip()
 Hello(name)
