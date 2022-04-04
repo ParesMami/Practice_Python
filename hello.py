@@ -5,5 +5,6 @@ def Hello(u):
     print('Hello, ', u)
 
 #input here from user
-name = input('Hi, what is your name? ')
+# here I add strip to remove white spaces before and after the input string
+name = input('Hi, what is your name? ').strip()
 Hello(name)
