@@ -9,3 +9,6 @@ def Hello(u):
 #capitlize so first letter will be a capital letter
 name = input('Hi, what is your name? ').capitalize().strip()
 Hello(name)
+
+
+# find.micah
